@@ -5,6 +5,12 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ## [Unreleased]
 
+### Changed
+- `handler-slack.rb`: emit an `unknown` with helpful debug messages when passing in bad config (@majormoses)
+
+### Added
+- added sample event payload and config (@majormoses)
+
 ## [2.0.0] - 2017-10-21
 ### Breaking Changes
 - `handler-slack-multichannel.rb`: Fixed title unknown issue when using proxy clients, change from client address to client name (@autumnw)
